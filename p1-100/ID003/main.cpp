@@ -1,41 +1,34 @@
 #include <iostream>
+#include <vector>
+#include <set>
+#include <fstream>
+#include <string>
 
 using namespace std;
 
-unsigned long long fib(unsigned long long);
-
 int main()
 {
-  int i = 1;
-  unsigned long long sum = 0;
-  while(true)
-    {
-      unsigned long long num = fib(i);
-      if (num < 4e6)
-	{
-	  if (num % 2 ==0)
-	    {
-	      cout<<i<<"\t"<<num<<endl;
-	      sum += num;
-	    }
-	} else
-	{
-	  break;
-	}
-      ++i;
-    }
+  unsigned long long num = 600851475143 ;
+  vector<unsigned int> primes;
+  set<unsigned int> factors;
   
-  cout<<"The solution is "<<sum<<endl;
-  return 0;
-}
-
-unsigned long long fib(unsigned long long x)
-{
-  if (x == 0 || x == 1)
-    {
-      return x;
-    }
-  else {
-    return fib(x - 1) + fib(x - 2);
+  ifstream f;
+  f.open("primes-to-100k.txt");
+  unsigned int line;
+  while(f >> line) {primes.push_back(line);}
+  f.close();
+  
+  for(const auto i: primes)
+  {
+      if(num % i == 0)
+      {
+          factors.insert(i);
+          num = num / i;
+          cout<<i<<endl;
+      }
   }
+  
+  
+  cout<<"The solution is "<<*factors.rbegin()<<endl;
+  return 0;
 }
