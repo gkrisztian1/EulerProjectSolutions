@@ -6,11 +6,10 @@
 - :large_blue_circle: In Progress
 
 ## Progress
-000 / 625
-0.00 % Complete
+|001 | 625 | 0.16 %|
 
 ## Checklist
 
 |ID|Name|State|Solution|
 |--|----|-----|--------|
-|ID001|[Multiples of 3 and 5](p1-100/ID001/)| :large_blue_circle: | 0
+|ID001|[Multiples of 3 and 5](p1-100/ID001/)| :white_check_mark: | 233168
