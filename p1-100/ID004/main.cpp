@@ -1,11 +1,40 @@
 #include <iostream>
+#include <string>
+#include <sstream>
+#include <bits/stdc++.h>
+#include <set>
 
 using namespace std;
 
+bool is_palidrome(string);
+
 int main()
 {
-  
-  
-  cout<<"The solution is "<<1<<endl;
-  return 0;
+    int r0 = 999;
+    int r1 = 999;
+    bool found = false;
+    set<int> palidromes;
+    for(int i = r0; i > 99; i--)
+    {
+        for(int j = r1; j > 99; j--)
+        {
+            stringstream ss;
+            ss << i * j;
+            if(is_palidrome(ss.str()))
+            {
+                //cout<<i<<"\t"<<j<<"\t"<<i * j<<endl;
+                palidromes.insert(i * j);
+            }
+        }
+    }
+    cout<<"The solution is "<<*palidromes.rbegin()<<endl;
+    return 0;
+}
+
+
+bool is_palidrome(string s)
+{
+    string revs = s;
+    reverse(revs.begin(), revs.end());
+    return !s.compare(revs);
 }
