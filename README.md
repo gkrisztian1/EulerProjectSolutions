@@ -17,5 +17,5 @@
 |ID006|[Sum square difference](p1-100/ID006/)| :white_check_mark: | 25164150
 |ID007|[10001st prime](p1-100/ID007/)| :white_check_mark: | 104743
 |ID008|[Largest product in a series](p1-100/ID008/)| :white_check_mark: | 23514624000
-|ID009|[Special Pythagorean triplet](p1-100/ID009/)| :large_blue_circle: | 31875000
-|ID0010|[Summation of primes](p1-100/ID0010/)| :white_check_mark: | 0
+|ID009|[Special Pythagorean triplet](p1-100/ID009/)| :white_check_mark: | 31875000
+|ID0010|[Summation of primes](p1-100/ID0010/)| :white_check_mark: | 142913828922
