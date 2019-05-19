@@ -1,0 +1,670 @@
+ID,Title,Difficulty,State,Solution
+1,Multiples of 3 and 5, 5,intact,0
+2,Even Fibonacci numbers, 5,intact,0
+3,Largest prime factor, 5,intact,0
+4,Largest palindrome product, 5,intact,0
+5,Smallest multiple, 5,intact,0
+6,Sum square difference, 5,intact,0
+7,10001st prime, 5,intact,0
+8,Largest product in a series, 5,intact,0
+9,Special Pythagorean triplet, 5,intact,0
+10,Summation of primes, 5,intact,0
+11,Largest product in a grid, 5,intact,0
+12,Highly divisible triangular number, 5,intact,0
+13,Large sum, 5,intact,0
+14,Longest Collatz sequence, 5,intact,0
+15,Lattice paths, 5,intact,0
+16,Power digit sum, 5,intact,0
+17,Number letter counts, 5,intact,0
+18,Maximum path sum I, 5,intact,0
+19,Counting Sundays, 5,intact,0
+20,Factorial digit sum, 5,intact,0
+21,Amicable numbers, 5,intact,0
+22,Names scores, 5,intact,0
+23,Non-abundant sums, 5,intact,0
+24,Lexicographic permutations, 5,intact,0
+25,1000-digit Fibonacci number, 5,intact,0
+26,Reciprocal cycles, 5,intact,0
+27,Quadratic primes, 5,intact,0
+28,Number spiral diagonals, 5,intact,0
+29,Distinct powers, 5,intact,0
+30,Digit fifth powers, 5,intact,0
+31,Coin sums, 5,intact,0
+32,Pandigital products, 5,intact,0
+33,Digit cancelling fractions, 5,intact,0
+34,Digit factorials, 5,intact,0
+35,Circular primes, 5,intact,0
+36,Double-base palindromes, 5,intact,0
+37,Truncatable primes, 5,intact,0
+38,Pandigital multiples, 5,intact,0
+39,Integer right triangles, 5,intact,0
+40,Champernowne's constant, 5,intact,0
+41,Pandigital prime, 5,intact,0
+42,Coded triangle numbers, 5,intact,0
+43,Sub-string divisibility, 5,intact,0
+44,Pentagon numbers, 5,intact,0
+45,"Triangular, pentagonal, and hexagonal", 5,intact,0
+46,Goldbach's other conjecture, 5,intact,0
+47,Distinct primes factors, 5,intact,0
+48,Self powers, 5,intact,0
+49,Prime permutations, 5,intact,0
+50,Consecutive prime sum, 5,intact,0
+51,Prime digit replacements, 15,intact,0
+52,Permuted multiples, 5,intact,0
+53,Combinatoric selections, 5,intact,0
+54,Poker hands, 10,intact,0
+55,Lychrel numbers, 5,intact,0
+56,Powerful digit sum, 5,intact,0
+57,Square root convergents, 5,intact,0
+58,Spiral primes, 5,intact,0
+59,XOR decryption, 5,intact,0
+60,Prime pair sets, 20,intact,0
+61,Cyclical figurate numbers, 20,intact,0
+62,Cubic permutations, 15,intact,0
+63,Powerful digit counts, 5,intact,0
+64,Odd period square roots, 20,intact,0
+65,Convergents of e, 15,intact,0
+66,Diophantine equation, 25,intact,0
+67,Maximum path sum II, 5,intact,0
+68,Magic 5-gon ring, 25,intact,0
+69,Totient maximum, 10,intact,0
+70,Totient permutation, 20,intact,0
+71,Ordered fractions, 10,intact,0
+72,Counting fractions, 20,intact,0
+73,Counting fractions in a range, 15,intact,0
+74,Digit factorial chains, 15,intact,0
+75,Singular integer right triangles, 25,intact,0
+76,Counting summations, 10,intact,0
+77,Prime summations, 25,intact,0
+78,Coin partitions, 30,intact,0
+79,Passcode derivation, 5,intact,0
+80,Square root digital expansion, 20,intact,0
+81,Path sum: two ways, 10,intact,0
+82,Path sum: three ways, 20,intact,0
+83,Path sum: four ways, 25,intact,0
+84,Monopoly odds, 35,intact,0
+85,Counting rectangles, 15,intact,0
+86,Cuboid route, 35,intact,0
+87,Prime power triples, 20,intact,0
+88,Product-sum numbers, 40,intact,0
+89,Roman numerals, 20,intact,0
+90,Cube digit pairs, 40,intact,0
+91,Right triangles with integer coordinates, 25,intact,0
+92,Square digit chains, 5,intact,0
+93,Arithmetic expressions, 35,intact,0
+94,Almost equilateral triangles, 35,intact,0
+95,Amicable chains, 30,intact,0
+96,Su Doku, 25,intact,0
+97,Large non-Mersenne prime, 5,intact,0
+98,Anagramic squares, 35,intact,0
+99,Largest exponential, 10,intact,0
+100,Arranged probability, 30,intact,0
+101,Optimum polynomial, 35,intact,0
+102,Triangle containment, 15,intact,0
+103,Special subset sums: optimum, 45,intact,0
+104,Pandigital Fibonacci ends, 25,intact,0
+105,Special subset sums: testing, 45,intact,0
+106,Special subset sums: meta-testing, 50,intact,0
+107,Minimal network, 35,intact,0
+108,Diophantine reciprocals I, 30,intact,0
+109,Darts, 45,intact,0
+110,Diophantine reciprocals II, 40,intact,0
+111,Primes with runs, 45,intact,0
+112,Bouncy numbers, 15,intact,0
+113,Non-bouncy numbers, 30,intact,0
+114,Counting block combinations I, 35,intact,0
+115,Counting block combinations II, 35,intact,0
+116,"Red, green or blue tiles", 30,intact,0
+117,"Red, green, and blue tiles", 35,intact,0
+118,Pandigital prime sets, 45,intact,0
+119,Digit power sum, 30,intact,0
+120,Square remainders, 25,intact,0
+121,Disc game prize fund, 35,intact,0
+122,Efficient exponentiation, 40,intact,0
+123,Prime square remainders, 30,intact,0
+124,Ordered radicals, 25,intact,0
+125,Palindromic sums, 25,intact,0
+126,Cuboid layers, 55,intact,0
+127,abc-hits, 50,intact,0
+128,Hexagonal tile differences, 55,intact,0
+129,Repunit divisibility, 45,intact,0
+130,Composites with prime repunit property, 45,intact,0
+131,Prime cube partnership, 40,intact,0
+132,Large repunit factors, 45,intact,0
+133,Repunit nonfactors, 50,intact,0
+134,Prime pair connection, 45,intact,0
+135,Same differences, 45,intact,0
+136,Singleton difference, 50,intact,0
+137,Fibonacci golden nuggets, 50,intact,0
+138,Special isosceles triangles, 45,intact,0
+139,Pythagorean tiles, 50,intact,0
+140,Modified Fibonacci golden nuggets, 55,intact,0
+141,"Investigating progressive numbers, n, which are also square", 60,intact,0
+142,Perfect Square Collection, 45,intact,0
+143,Investigating the Torricelli point of a triangle, 65,intact,0
+144,Investigating multiple reflections of a laser beam, 50,intact,0
+145,How many reversible numbers are there below one-billion?, 20,intact,0
+146,Investigating a Prime Pattern , 50,intact,0
+147,Rectangles in cross-hatched grids, 65,intact,0
+148,Exploring Pascal's triangle, 50,intact,0
+149,Searching for a maximum-sum subsequence, 50,intact,0
+150,Searching a triangular array for a sub-triangle having minimum-sum, 55,intact,0
+151,Paper sheets of standard sizes: an expected-value problem, 50,intact,0
+152,Writing 1/2 as a sum of inverse squares, 65,intact,0
+153,Investigating Gaussian Integers, 65,intact,0
+154,Exploring Pascal's pyramid, 65,intact,0
+155,Counting Capacitor Circuits, 60,intact,0
+156,Counting Digits, 70,intact,0
+157,Solving the diophantine equation 1/a+1/b= p/10n, 65,intact,0
+158,Exploring strings for which only one character comes lexicographically after its neighbour to the left, 55,intact,0
+159,Digital root sums of factorisations, 60,intact,0
+160,Factorial trailing digits, 60,intact,0
+161,Triominoes, 70,intact,0
+162,Hexadecimal numbers, 45,intact,0
+163,Cross-hatched triangles, 70,intact,0
+164,Numbers for which no three consecutive digits have a sum greater than a given value, 45,intact,0
+165,Intersections, 65,intact,0
+166,Criss Cross, 50,intact,0
+167,Investigating Ulam sequences, 75,intact,0
+168,Number Rotations, 65,intact,0
+169,Exploring the number of different ways a number can be expressed as a sum of powers of 2, 50,intact,0
+170,Find the largest 0 to 9 pandigital that can be formed by concatenating products, 70,intact,0
+171,Finding numbers for which the sum of the squares of the digits is a square, 65,intact,0
+172,Investigating numbers with few repeated digits, 55,intact,0
+173,"Using up to one million tiles how many different ""hollow"" square laminae can be formed?", 30,intact,0
+174,"Counting the number of ""hollow"" square laminae that can form one, two, three, ... distinct arrangements", 40,intact,0
+175,Fractions involving the number of different ways a number can be expressed as a sum of powers of 2, 70,intact,0
+176,Right-angled triangles that share a cathetus, 70,intact,0
+177,Integer angled Quadrilaterals, 80,intact,0
+178,Step Numbers, 55,intact,0
+179,Consecutive positive divisors, 25,intact,0
+180,Rational zeros of a function of three variables, 75,intact,0
+181,Investigating in how many ways objects of two different colours can be grouped, 70,intact,0
+182,RSA encryption, 60,intact,0
+183,Maximum product of parts, 45,intact,0
+184,Triangles containing the origin, 75,intact,0
+185,Number Mind, 55,intact,0
+186,Connectedness of a network, 60,intact,0
+187,Semiprimes, 25,intact,0
+188,The hyperexponentiation of a number, 35,intact,0
+189,Tri-colouring a triangular grid, 70,intact,0
+190,Maximising a weighted product, 50,intact,0
+191,Prize Strings, 35,intact,0
+192,Best Approximations, 75,intact,0
+193,Squarefree Numbers, 55,intact,0
+194,Coloured Configurations, 75,intact,0
+195,Inscribed circles of triangles with one angle of 60 degrees, 75,intact,0
+196,Prime triplets, 65,intact,0
+197,Investigating the behaviour of a recursively defined sequence, 45,intact,0
+198,Ambiguous Numbers, 80,intact,0
+199,Iterative Circle Packing, 70,intact,0
+200,"Find the 200th prime-proof sqube containing the contiguous sub-string ""200""", 65,intact,0
+201,Subsets with a unique sum, 65,intact,0
+202,Laserbeam, 60,intact,0
+203,Squarefree Binomial Coefficients, 25,intact,0
+204,Generalised Hamming Numbers, 30,intact,0
+205,Dice Game, 15,intact,0
+206,Concealed Square, 5,intact,0
+207,Integer partition equations, 40,intact,0
+208,Robot Walks, 70,intact,0
+209,Circular Logic, 60,intact,0
+210,Obtuse Angled Triangles, 70,intact,0
+211,Divisor Square Sum, 50,intact,0
+212,Combined Volume of Cuboids, 70,intact,0
+213,Flea Circus, 60,intact,0
+214,Totient Chains, 40,intact,0
+215,Crack-free Walls, 50,intact,0
+216,Investigating the primality of numbers of the form 2n2-1, 45,intact,0
+217,Balanced Numbers, 70,intact,0
+218,Perfect right-angled triangles, 55,intact,0
+219,Skew-cost coding, 70,intact,0
+220,Heighway Dragon, 55,intact,0
+221,Alexandrian Integers, 65,intact,0
+222,Sphere Packing, 60,intact,0
+223,Almost right-angled triangles I, 70,intact,0
+224,Almost right-angled triangles II, 75,intact,0
+225,Tribonacci non-divisors, 45,intact,0
+226,A Scoop of Blancmange, 65,intact,0
+227,The Chase, 65,intact,0
+228,Minkowski Sums, 70,intact,0
+229,Four Representations using Squares, 70,intact,0
+230,Fibonacci Words, 50,intact,0
+231,The prime factorisation of binomial coefficients, 40,intact,0
+232,The Race, 65,intact,0
+233,Lattice points on a circle, 70,intact,0
+234,Semidivisible numbers, 50,intact,0
+235,An Arithmetic Geometric sequence, 40,intact,0
+236,Luxury Hampers, 80,intact,0
+237,Tours on a 4 x n playing board, 70,intact,0
+238,Infinite string tour, 75,intact,0
+239,Twenty-two Foolish Primes, 65,intact,0
+240,Top Dice, 60,intact,0
+241,Perfection Quotients, 80,intact,0
+242,Odd Triplets, 75,intact,0
+243,Resilience, 35,intact,0
+244,Sliders, 70,intact,0
+245,Coresilience, 80,intact,0
+246,Tangents to an ellipse, 80,intact,0
+247,Squares under a hyperbola, 65,intact,0
+248,Numbers for which Euler’s totient function equals 13!, 70,intact,0
+249,Prime Subset Sums, 60,intact,0
+250,250250, 55,intact,0
+251,Cardano Triplets, 70,intact,0
+252,Convex Holes, 80,intact,0
+253,Tidying up, 75,intact,0
+254,Sums of Digit Factorials, 75,intact,0
+255,Rounded Square Roots, 75,intact,0
+256,Tatami-Free Rooms, 80,intact,0
+257,Angular Bisectors, 85,intact,0
+258,A lagged Fibonacci sequence, 70,intact,0
+259,Reachable Numbers, 70,intact,0
+260,Stone Game, 70,intact,0
+261,Pivotal Square Sums, 85,intact,0
+262,Mountain Range, 80,intact,0
+263,An engineers' dream come true, 75,intact,0
+264,Triangle Centres, 85,intact,0
+265,Binary Circles, 40,intact,0
+266,Pseudo Square Root, 65,intact,0
+267,Billionaire, 50,intact,0
+268,Counting numbers with at least four distinct prime factors less than 100, 70,intact,0
+269,Polynomials with at least one integer root, 80,intact,0
+270,Cutting Squares, 80,intact,0
+271,"Modular Cubes, part 1", 60,intact,0
+272,"Modular Cubes, part 2", 80,intact,0
+273,Sum of Squares, 70,intact,0
+274,Divisibility Multipliers, 65,intact,0
+275,Balanced Sculptures, 85,intact,0
+276,Primitive Triangles, 75,intact,0
+277,A Modified Collatz sequence, 35,intact,0
+278,Linear Combinations of Semiprimes, 50,intact,0
+279,Triangles with integral sides and an integral angle , 60,intact,0
+280,Ant and seeds, 65,intact,0
+281,Pizza Toppings, 55,intact,0
+282,The Ackermann function, 70,intact,0
+283,Integer sided triangles for which the  area/perimeter ratio is integral, 75,intact,0
+284,Steady Squares, 55,intact,0
+285,Pythagorean odds, 55,intact,0
+286,Scoring probabilities, 50,intact,0
+287,Quadtree encoding (a simple compression algorithm), 40,intact,0
+288,An enormous factorial, 35,intact,0
+289,Eulerian Cycles, 90,intact,0
+290,Digital Signature, 50,intact,0
+291,Panaitopol Primes, 45,intact,0
+292,Pythagorean Polygons, 65,intact,0
+293,Pseudo-Fortunate Numbers, 30,intact,0
+294,Sum of digits - experience #23, 45,intact,0
+295,Lenticular holes, 75,intact,0
+296,Angular Bisector and Tangent, 60,intact,0
+297,Zeckendorf Representation, 35,intact,0
+298,Selective Amnesia, 60,intact,0
+299,Three similar triangles, 60,intact,0
+300,Protein folding, 50,intact,0
+301,Nim, 15,intact,0
+302,Strong Achilles Numbers, 60,intact,0
+303,Multiples with small digits, 35,intact,0
+304,Primonacci, 35,intact,0
+305,Reflexive Position, 60,intact,0
+306,Paper-strip Game, 55,intact,0
+307,Chip Defects, 35,intact,0
+308,An amazing Prime-generating Automaton, 60,intact,0
+309,Integer Ladders, 50,intact,0
+310,Nim Square, 40,intact,0
+311,Biclinic Integral Quadrilaterals, 70,intact,0
+312,Cyclic paths on Sierpiński graphs, 50,intact,0
+313,Sliding game, 30,intact,0
+314,The Mouse on the Moon, 80,intact,0
+315,Digital root clocks, 20,intact,0
+316,Numbers in decimal expansions, 55,intact,0
+317,Firecracker, 35,intact,0
+318,2011 nines, 50,intact,0
+319,Bounded Sequences, 90,intact,0
+320,Factorials divisible by a huge integer, 50,intact,0
+321,Swapping Counters, 30,intact,0
+322,Binomial coefficients divisible by 10, 70,intact,0
+323,Bitwise-OR operations on random integers, 20,intact,0
+324,Building a tower, 50,intact,0
+325,Stone Game II, 80,intact,0
+326,Modulo Summations, 55,intact,0
+327,Rooms of Doom, 40,intact,0
+328,Lowest-cost Search, 95,intact,0
+329,Prime Frog, 25,intact,0
+330,Euler's Number, 70,intact,0
+331,Cross flips, 100,intact,0
+332,Spherical triangles, 50,intact,0
+333,Special partitions, 35,intact,0
+334,Spilling the beans, 65,intact,0
+335,Gathering the beans, 65,intact,0
+336,Maximix Arrangements, 25,intact,0
+337,Totient Stairstep Sequences, 70,intact,0
+338,Cutting Rectangular Grid Paper, 95,intact,0
+339,Peredur fab Efrawg, 70,intact,0
+340,Crazy Function, 30,intact,0
+341,Golomb's self-describing sequence, 45,intact,0
+342,The totient of a square is a cube, 50,intact,0
+343,Fractional Sequences, 35,intact,0
+344,Silver dollar game, 100,intact,0
+345,Matrix Sum, 15,intact,0
+346,Strong Repunits, 15,intact,0
+347,Largest integer divisible by two primes, 15,intact,0
+348,Sum of a square and a cube, 25,intact,0
+349,Langton's ant, 35,intact,0
+350,Constraining the least greatest and the greatest least, 60,intact,0
+351,Hexagonal orchards, 25,intact,0
+352,Blood tests, 55,intact,0
+353,Risky moon, 50,intact,0
+354,Distances in a bee's honeycomb , 65,intact,0
+355,Maximal coprime subset, 70,intact,0
+356,Largest roots of cubic polynomials, 60,intact,0
+357,Prime generating integers, 10,intact,0
+358,Cyclic numbers, 25,intact,0
+359,Hilbert's New Hotel, 25,intact,0
+360,Scary Sphere, 50,intact,0
+361,Subsequence of Thue-Morse sequence, 90,intact,0
+362,Squarefree factors, 70,intact,0
+363,Bézier Curves, 35,intact,0
+364,Comfortable distance, 50,intact,0
+365,A huge binomial coefficient, 40,intact,0
+366,Stone Game III, 40,intact,0
+367,Bozo sort, 55,intact,0
+368,A Kempner-like series, 45,intact,0
+369,Badugi, 60,intact,0
+370,Geometric triangles, 65,intact,0
+371,Licence plates, 30,intact,0
+372,Pencils of rays, 60,intact,0
+373,Circumscribed Circles, 75,intact,0
+374,Maximum Integer Partition Product, 40,intact,0
+375,Minimum of subsequences, 40,intact,0
+376,Nontransitive sets of dice, 70,intact,0
+377,"Sum of digits, experience 13", 45,intact,0
+378,Triangle Triples, 35,intact,0
+379,Least common multiple count, 70,intact,0
+380,Amazing Mazes!, 60,intact,0
+381,(prime-k) factorial, 15,intact,0
+382,Generating polygons, 60,intact,0
+383,Divisibility comparison between factorials, 50,intact,0
+384,Rudin-Shapiro sequence, 65,intact,0
+385,Ellipses inside triangles, 70,intact,0
+386,Maximum length of an antichain, 40,intact,0
+387,Harshad Numbers, 10,intact,0
+388,Distinct Lines, 55,intact,0
+389,Platonic Dice, 30,intact,0
+390,Triangles with non rational sides and integral area, 60,intact,0
+391,Hopping Game, 75,intact,0
+392,Enmeshed unit circle, 35,intact,0
+393,Migrating ants, 50,intact,0
+394,Eating pie, 55,intact,0
+395,Pythagorean tree, 40,intact,0
+396,Weak Goodstein sequence, 40,intact,0
+397,Triangle on parabola, 70,intact,0
+398,Cutting rope, 55,intact,0
+399,Squarefree Fibonacci Numbers, 45,intact,0
+400,Fibonacci tree game, 55,intact,0
+401,Sum of squares of divisors, 25,intact,0
+402,Integer-valued polynomials, 55,intact,0
+403,Lattice points enclosed by parabola and line, 55,intact,0
+404,Crisscross Ellipses, 60,intact,0
+405,A rectangular tiling, 40,intact,0
+406,Guessing Game, 50,intact,0
+407,Idempotents, 20,intact,0
+408,Admissible paths through a grid, 50,intact,0
+409,Nim Extreme, 55,intact,0
+410,Circle and tangent line, 70,intact,0
+411,Uphill paths, 45,intact,0
+412,Gnomon numbering, 50,intact,0
+413,One-child Numbers, 75,intact,0
+414,Kaprekar constant, 60,intact,0
+415,Titanic sets, 100,intact,0
+416,A frog's trip, 80,intact,0
+417,Reciprocal cycles II, 35,intact,0
+418,Factorisation triples, 40,intact,0
+419,Look and say sequence, 50,intact,0
+420,2x2 positive integer matrix, 60,intact,0
+421,Prime factors of n15+1, 50,intact,0
+422,Sequence of points on a hyperbola, 75,intact,0
+423,Consecutive die throws, 45,intact,0
+424,Kakuro, 60,intact,0
+425,Prime connection, 25,intact,0
+426,Box-ball system, 75,intact,0
+427,n-sequences, 95,intact,0
+428,Necklace of circles, 90,intact,0
+429,Sum of squares of unitary divisors, 20,intact,0
+430,Range flips, 35,intact,0
+431,Square Space Silo, 40,intact,0
+432,Totient sum, 70,intact,0
+433,Steps in Euclid's algorithm, 65,intact,0
+434,Rigid graphs, 75,intact,0
+435,Polynomials of Fibonacci numbers, 30,intact,0
+436,Unfair wager, 55,intact,0
+437,Fibonacci primitive roots, 35,intact,0
+438,Integer part of polynomial equation's solutions, 95,intact,0
+439,Sum of sum of divisors, 100,intact,0
+440,GCD and Tiling, 60,intact,0
+441,The inverse summation of coprime couples, 65,intact,0
+442,Eleven-free integers, 60,intact,0
+443,GCD sequence, 30,intact,0
+444,The Roundtable Lottery, 60,intact,0
+445,Retractions A, 50,intact,0
+446,Retractions B, 60,intact,0
+447,Retractions C, 95,intact,0
+448,Average least common multiple, 80,intact,0
+449,Chocolate covered candy, 35,intact,0
+450,Hypocycloid and Lattice points, 100,intact,0
+451,Modular inverses, 30,intact,0
+452,Long Products, 45,intact,0
+453,Lattice Quadrilaterals, 95,intact,0
+454,Diophantine reciprocals III, 50,intact,0
+455,Powers With Trailing Digits, 40,intact,0
+456,Triangles containing the origin II, 50,intact,0
+457,A polynomial modulo the square of a prime, 35,intact,0
+458,Permutations of Project, 30,intact,0
+459,Flipping game, 100,intact,0
+460,An ant on the move, 60,intact,0
+461,Almost Pi, 30,intact,0
+462,Permutation of 3-smooth numbers, 60,intact,0
+463,A weird recurrence relation, 35,intact,0
+464,Möbius function and intervals, 60,intact,0
+465,Polar polygons, 85,intact,0
+466,Distinct terms in a multiplication table, 65,intact,0
+467,Superinteger, 50,intact,0
+468,Smooth divisors of binomial coefficients, 70,intact,0
+469,Empty chairs, 40,intact,0
+470,Super Ramvok, 65,intact,0
+471,Triangle inscribed in ellipse, 75,intact,0
+472,Comfortable Distance II, 60,intact,0
+473,Phigital number base, 35,intact,0
+474,Last digits of divisors, 50,intact,0
+475,Music festival, 50,intact,0
+476,Circle Packing II, 45,intact,0
+477,Number Sequence Game, 65,intact,0
+478,Mixtures, 100,intact,0
+479,Roots on the Rise, 25,intact,0
+480,The Last Question, 45,intact,0
+481,Chef Showdown, 70,intact,0
+482,The incenter of a triangle, 85,intact,0
+483,Repeated permutation, 100,intact,0
+484,Arithmetic Derivative, 100,intact,0
+485,Maximum number of divisors, 30,intact,0
+486,Palindrome-containing strings, 70,intact,0
+487,Sums of power sums, 40,intact,0
+488,Unbalanced Nim, 80,intact,0
+489,Common factors between two sequences, 100,intact,0
+490,Jumping frog, 95,intact,0
+491,Double pandigital number divisible by 11, 20,intact,0
+492,Exploding sequence, 60,intact,0
+493,Under The Rainbow, 10,intact,0
+494,Collatz prefix families, 100,intact,0
+495,Writing n as the product of k distinct positive integers, 100,intact,0
+496,Incenter and circumcenter of triangle, 50,intact,0
+497,Drunken Tower of Hanoi, 40,intact,0
+498,Remainder of polynomial division, 40,intact,0
+499,St. Petersburg Lottery, 100,intact,0
+500,Problem 500!!!, 15,intact,0
+501,Eight Divisors, 40,intact,0
+502,Counting Castles, 100,intact,0
+503,Compromise or persist, 60,intact,0
+504,Square on the Inside, 15,intact,0
+505,Bidirectional Recurrence, 90,intact,0
+506,Clock sequence, 30,intact,0
+507,Shortest Lattice Vector, 90,intact,0
+508,Integers in base i-1, 90,intact,0
+509,Divisor Nim, 45,intact,0
+510,Tangent Circles, 30,intact,0
+511,Sequences with nice divisibility properties, 55,intact,0
+512,Sums of totients of powers, 25,intact,0
+513,Integral median, 60,intact,0
+514,Geoboard Shapes, 90,intact,0
+515,Dissonant Numbers, 40,intact,0
+516,5-smooth totients, 20,intact,0
+517,A real recursion, 45,intact,0
+518,Prime triples and geometric sequences, 20,intact,0
+519,Tricoloured Coin Fountains, 50,intact,0
+520,Simbers, 45,intact,0
+521,Smallest prime factor, 45,intact,0
+522,Hilbert's Blackout, 85,intact,0
+523,First Sort I, 30,intact,0
+524,First Sort II, 75,intact,0
+525,Rolling Ellipse, 45,intact,0
+526,Largest prime factors of consecutive numbers, 60,intact,0
+527,Randomized Binary Search, 30,intact,0
+528,Constrained Sums, 60,intact,0
+529,10-substrings, 85,intact,0
+530,GCD of Divisors, 60,intact,0
+531,Chinese leftovers, 25,intact,0
+532,Nanobots on Geodesics, 55,intact,0
+533,Minimum values of the Carmichael function, 50,intact,0
+534,Weak Queens, 55,intact,0
+535,Fractal Sequence, 60,intact,0
+536,Modulo power identity , 60,intact,0
+537,Counting tuples, 35,intact,0
+538,Maximum quadrilaterals, 40,intact,0
+539,Odd elimination, 35,intact,0
+540,Counting primitive Pythagorean triples, 35,intact,0
+541,Divisibility of Harmonic Number Denominators, 90,intact,0
+542,Geometric Progression with Maximum Sum, 65,intact,0
+543,Prime-Sum Numbers, 30,intact,0
+544,Chromatic Conundrum, 90,intact,0
+545,Faulhaber's Formulas, 35,intact,0
+546,The Floor's Revenge, 85,intact,0
+547,Distance of random points within hollow square laminae, 70,intact,0
+548,Gozinta Chains, 35,intact,0
+549,Divisibility of factorials, 15,intact,0
+550,Divisor game, 60,intact,0
+551,Sum of digits sequence, 50,intact,0
+552,Chinese leftovers II, 40,intact,0
+553,Power sets of power sets, 85,intact,0
+554,Centaurs on a chess board, 80,intact,0
+555,McCarthy 91 function, 30,intact,0
+556,Squarefree Gaussian Integers, 85,intact,0
+557,Cutting triangles, 55,intact,0
+558,Irrational base, 65,intact,0
+559,Permuted Matrices, 100,intact,0
+560,Coprime Nim, 75,intact,0
+561,Divisor Pairs, 30,intact,0
+562,Maximal perimeter, 75,intact,0
+563,Robot Welders, 45,intact,0
+564,Maximal polygons, 60,intact,0
+565,Divisibility of sum of divisors, 35,intact,0
+566,Cake Icing Puzzle, 100,intact,0
+567,Reciprocal games I, 50,intact,0
+568,Reciprocal games II, 55,intact,0
+569,Prime Mountain Range, 45,intact,0
+570,Snowflakes, 55,intact,0
+571,Super Pandigital Numbers, 25,intact,0
+572,Idempotent matrices, 50,intact,0
+573,Unfair race, 80,intact,0
+574,Verifying Primes, 50,intact,0
+575,Wandering Robots, 35,intact,0
+576,Irrational jumps, 55,intact,0
+577,Counting hexagons, 20,intact,0
+578,Integers with decreasing prime powers, 80,intact,0
+579,Lattice points in lattice cubes, 100,intact,0
+580,Squarefree Hilbert numbers, 70,intact,0
+581,47-smooth triangular numbers, 30,intact,0
+582,Nearly isosceles 120 degree triangles, 50,intact,0
+583,Heron Envelopes, 45,intact,0
+584,Birthday Problem Revisited, 100,intact,0
+585,Nested square roots, 100,intact,0
+586,Binary Quadratic Form, 75,intact,0
+587,Concave triangle, 20,intact,0
+588,Quintinomial coefficients, 40,intact,0
+589,Poohsticks Marathon, 95,intact,0
+590,Sets with a given Least Common Multiple, 60,intact,0
+591,Best Approximations by Quadratic Integers, 95,intact,0
+592,Factorial trailing digits 2, 60,intact,0
+593,Fleeting Medians, 35,intact,0
+594,Rhombus Tilings, 85,intact,0
+595,Incremental Random Sort, 35,intact,0
+596,Number of lattice points in a hyperball, 50,intact,0
+597,Torpids, 100,intact,0
+598,Split Divisibilities, 40,intact,0
+599,Distinct Colourings of a Rubik's Cube, 60,intact,0
+600,Integer sided equiangular hexagons, 35,intact,0
+601,Divisibility streaks, 20,intact,0
+602,Product of Head Counts, 35,intact,0
+603,Substring sums of prime concatenations, 45,intact,0
+604,Convex path in square, 40,intact,0
+605,Pairwise Coin-Tossing Game, 25,intact,0
+606,Gozinta Chains II, 50,intact,0
+607,Marsh Crossing, 20,intact,0
+608,Divisor Sums, 80,intact,0
+609,π sequences, 20,intact,0
+610,Roman Numerals II, 35,intact,0
+611,Hallway of square steps, 55,intact,0
+612,Friend numbers, 30,intact,0
+613,Pythagorean Ant, 20,intact,0
+614,Special partitions 2, 55,intact,0
+615,The millionth number with at least one million prime factors, 35,intact,0
+616,Creative numbers, 40,intact,0
+617,Mirror Power Sequence, 40,intact,0
+618,Numbers with a given prime factor sum, 20,intact,0
+619,Square subsets, 45,intact,0
+620,Planetary Gears, 80,intact,0
+621,Expressing an integer as the sum of triangular numbers, 35,intact,0
+622,Riffle Shuffles, 15,intact,0
+623,Lambda Count, 45,intact,0
+624,Two heads are better than one, 30,intact,0
+625,Gcd sum, 35,intact,0
+626,Counting Binary Matrices, 70,intact,0
+627,Counting products, 60,intact,0
+628,Open chess positions, 25,intact,0
+629,Scatterstone Nim, 55,intact,0
+630,Crossed lines, 20,intact,0
+631,Constrained Permutations, 65,intact,0
+632,Square prime factors, 35,intact,0
+633,Square prime factors II, 50,intact,0
+634,Numbers of the form $a^2b^3$, 40,intact,0
+635,Subset sums, 40,intact,0
+636,Restricted Factorisations, 90,intact,0
+637,Flexible digit sum, 45,intact,0
+638,Weighted lattice paths, 35,intact,0
+639,Summing a multiplicative function, 70,intact,0
+640,Shut the Box, 50,intact,0
+641,A Long Row of Dice, 35,intact,0
+642,Sum of largest prime factors, 45,intact,0
+643,2-Friendly, 25,intact,0
+644,Squares on the line, 90,intact,0
+645,Every Day is a Holiday, 75,intact,0
+646,Bounded Divisors, 40,intact,0
+647,Linear Transformations of Polygonal Numbers, 30,intact,0
+648,Skipping Squares, 45,intact,0
+649,Low-Prime Chessboard Nim, 30,intact,0
+650,Divisors of Binomial Product, 10,intact,0
+651,Patterned Cylinders, 70,intact,0
+652,Distinct values of a proto-logarithmic function, 70,intact,0
+653,Frictionless Tube, 45,intact,0
+654,Neighbourly Constraints, 45,intact,0
+655,Divisible Palindromes, 25,intact,0
+656,Palindromic sequences, 45,intact,0
+657,Incomplete words, 30,intact,0
+658,Incomplete words II, 55,intact,0
+659,Largest prime, 20,intact,0
+660,Pandigital Triangles,,intact,0
+661,A Long Chess Match,,intact,0
+662,Fibonacci paths,,intact,0
+663,Sums of subarrays,,intact,0
+664,An infinite game,,intact,0
+665,Proportionate Nim,,intact,0
+666,Polymorphic Bacteria,,intact,0
+667,Moving Pentagon,,intact,0
+668,Square root smooth Numbers,,intact,0
+669,The King's Banquet,,intact,0
