@@ -2,9 +2,9 @@
 #include <sstream>
 #include <fstream>
 
-void export_answer(stringstream &);
-
 using namespace std;
+
+void export_answer(stringstream &);
 
 
 int main()
@@ -18,7 +18,8 @@ int main()
 
 void export_answer(stringstream &sstream)
 {
-    ofstream f("solution.txt", "w");
-    f.write(sstream.str());
+    fstream f;
+    f.open("solution.txt", ios::out);
+    f << sstream.str();
     f.close();
 }

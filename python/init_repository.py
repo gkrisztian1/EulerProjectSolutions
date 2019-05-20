@@ -2,46 +2,46 @@ import pandas as pd
 from shutil import copyfile, rmtree
 from os import mkdir
 import numpy as np
-from states import states
+from states import *
+from bs4 import BeautifulSoup as bs
+import requests
 
-df = pd.read_csv("database.csv")
-
-try:
-    mkdir("../problems")
-except FileExistsError:
-    pass
-
-f = open("templates/problem.md")
-template_prob = f.read()
-f.close()
-
-
-for index, row in df.iterrows():
-    
-    dirname = "ID000"
-    id = str(index)
-    dirname = "../problems/" + dirname[:-len(id)] + id
-    
-    
+def make_dir(loc):
     try:
-        mkdir(dirname)
-        copyfile("templates/main.cpp", dirname +"/main.cpp")
-        copyfile("templates/state.txt", dirname +"/state.txt")
-        
-        outs = template_prob.format(title=row['Title'],
-                                    state=states[row['State']][0],
-                                    state_text=states[row['State']][1],
-                                    id=index + 1,
-                                    link=f"https://projecteuler.net/problem={index+1}",
-                                    solution=row['Solution']
-                                    ) 
-        f = open(dirname + "/Problem.md", "w")
-        f.write(outs)
-        f.close()
-        
+        mkdir(loc)
+        return True
     except FileExistsError:
-        pass
+        return False
 
-    if index > 5:
-        #break
-        pass
+url = "https://projecteuler.net/recent"
+page = requests.get(url)
+soup = bs(page.content, 'html.parser')
+numproblem = int(soup.find("td").text)
+
+
+
+
+
+root = "../problems"
+make_dir(root)
+        
+        
+        
+for i in range(1, numproblem + 1):
+    
+    url = f"https://projecteuler.net/problem={i}"
+    page = requests.get(url)
+    soup = bs(page.content, 'html.parser')
+    
+    problem_title = soup.findAll("h2")[0].get_text()
+    problem_difficulty = soup.findAll("span")[0].get_text().split(";")[-1][18:-1]
+    
+    print(f"{i:>3}|{problem_title:<50}|{problem_difficulty:>3}|")
+    
+    pdir = root + "/" + "ID{:03}".format(i)
+    make_dir(pdir)
+    
+    
+    if i > 10:
+        break
+    
