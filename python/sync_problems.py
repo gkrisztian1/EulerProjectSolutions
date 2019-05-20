@@ -3,7 +3,7 @@ from os import mkdir
 from bs4 import BeautifulSoup as bs
 import requests
 import os
-import asyncio
+
 
 def make_dir(loc):
     try:

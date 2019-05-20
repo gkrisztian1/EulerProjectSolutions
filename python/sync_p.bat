@@ -1,0 +1,2 @@
+PYTHON sync_problems.py
+PAUSE
