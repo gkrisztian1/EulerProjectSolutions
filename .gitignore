@@ -3,5 +3,6 @@ build/*
 build.*
 *.exe
 *.o
-
+*.bat
+nul
 __pycache__/
