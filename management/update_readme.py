@@ -16,12 +16,9 @@ solutions = {}
 for prob in pdirs:
     if os.path.exists(f'problems/{prob}/solution.txt'):
         numsolved = numsolved + 1
+        solved.add(int(prob[2:]))
         with open(f'problems/{prob}/solution.txt') as sol:
             solutions[numsolved] = sol.read()
-        
-    solved.add(int(prob[2:]))
-    
-    
     
 url = 'https://projecteuler.net/recent'
 page = requests.get(url)
