@@ -12,16 +12,21 @@ def format_num(num, is_solved=False):
     return s2
 
 pdirs = os.listdir('problems/')
+inprogress = set()
 solved = set()
 numsolved = 0
 solutions = {}
 
 for prob in pdirs:
+    idx = int(prob[2:])
     if os.path.exists(f'problems/{prob}/solution.txt'):
         numsolved = numsolved + 1
-        solved.add(int(prob[2:]))
+        solved.add(idx)
         with open(f'problems/{prob}/solution.txt') as sol:
             solutions[numsolved] = sol.read()
+            
+    else:
+        inprogress.add(idx)       
     
 url = 'https://projecteuler.net/recent'
 page = requests.get(url)
@@ -48,7 +53,9 @@ for i in range(r):
         num = c * i + j + 1
         if num <= pnum:
             if num in solved:
-                table = table + f"|**{format_num(num)}** :white_check_mark:"
+                table = table + f"|**{format_num(num, True)}** :white_check_mark:"
+            elif num in inprogress:
+                table = table + f"|**{format_num(num, True)}** :pencil:"
             else:
                 table = table + f"|**{format_num(num)}** :x:"
                 
