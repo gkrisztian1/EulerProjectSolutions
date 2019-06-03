@@ -11,7 +11,7 @@ int main()
 {
     stringstream s;
     
-    
+    export_answer(s);
     return 0;
 }
 
