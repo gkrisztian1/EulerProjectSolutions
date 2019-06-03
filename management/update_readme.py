@@ -1,0 +1,56 @@
+from bs4 import BeautifulSoup as bs
+import requests
+import os
+
+def format_num(num):
+    #s1 = f'<span style="color:{c}">**{num}**</span>'
+    s2 = f"[{num}](problems/ID{num:03}/problem.md)"
+    
+    return s2
+
+pdirs = os.listdir('../problems/')
+solved = set()
+numsolved = 0
+
+for prob in pdirs:
+    if os.path.exists(f'../problems/{prob}/solution.txt'):
+        numsolved = numsolved + 1
+        
+    solved.add(int(prob[2:]))
+    
+    
+    
+url = 'https://projecteuler.net/recent'
+page = requests.get(url)
+sp = bs(page.content, 'html.parser')
+pnum = int(sp.findAll('td', {'class':'id_column'})[0].text)
+
+readmetemp = ''
+with open('templates/README.md', 'r') as f:
+    readmetemp = f.read()
+    
+    
+
+
+
+r = 100
+c = 10
+
+assert r * c >= pnum, f"{r} * {c} ({r * c})  < {pnum} !"
+table = ''
+for i in range(r):
+    if i == 1:
+        table = table + '|-' * c + '\n'
+    for j in range(c):
+        num = c * i + j + 1
+        if num <= pnum:
+            if num in solved:
+                table = table + f"|**{format_num(num)}** :white_check_mark:"
+            else:
+                table = table + f"|**{format_num(num)}** :x:"
+                
+    table = table + '\n'
+
+readmetemp = readmetemp.format(allp=pnum, solved=solved, done=f'{numsolved / pnum *100:.2f}', table=table)
+with open('../README.md', 'w') as f:
+    f.write(readmetemp)
