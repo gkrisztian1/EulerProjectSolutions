@@ -17,7 +17,10 @@ def get_problem(pnum):
     pdir = "problems/ID{:03}".format(pnum)
     
     if os.path.exists(pdir):
+        print(f'Problem {pnum:<3} is already synced.')
         return False
+    else:
+        print(f'Syncing {pnum:<3} ', end='')
     
     url = f"https://projecteuler.net/problem={pnum}"
     page = requests.get(url)
@@ -45,11 +48,17 @@ def get_problem(pnum):
     with open(f'{pdir}/problem.md', 'w', encoding="utf-8") as f:
         f.write(pmd)
     
+    print('Done')
     return True
     
 
 
 
-
-for i in range(10):
-    get_problem(i+1)
+print("Write -1 to quit.")
+while True:
+    pn = int(input("Problem ID: "))
+    if pn == -1:
+        print('Exit.')
+        break
+    else:
+        get_problem(pn)
