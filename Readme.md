@@ -3,7 +3,7 @@
 ### Statistics
 |all|solved|progress|
 |-|-|-|
-|673|{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}|1.49 %|
+|673|10|1.49 %|
 
 |**[1](problems/ID001/problem.md)** :white_check_mark:|**[2](problems/ID002/problem.md)** :white_check_mark:|**[3](problems/ID003/problem.md)** :white_check_mark:|**[4](problems/ID004/problem.md)** :white_check_mark:|**[5](problems/ID005/problem.md)** :white_check_mark:|**[6](problems/ID006/problem.md)** :white_check_mark:|**[7](problems/ID007/problem.md)** :white_check_mark:|**[8](problems/ID008/problem.md)** :white_check_mark:|**[9](problems/ID009/problem.md)** :white_check_mark:|**[10](problems/ID010/problem.md)** :white_check_mark:
 |-|-|-|-|-|-|-|-|-|-

@@ -8,13 +8,16 @@ def format_num(num):
     
     return s2
 
-pdirs = os.listdir('../problems/')
+pdirs = os.listdir('problems/')
 solved = set()
 numsolved = 0
+solutions = {}
 
 for prob in pdirs:
-    if os.path.exists(f'../problems/{prob}/solution.txt'):
+    if os.path.exists(f'problems/{prob}/solution.txt'):
         numsolved = numsolved + 1
+        with open(f'problems/{prob}/solution.txt') as sol:
+            solutions[numsolved] = sol.read()
         
     solved.add(int(prob[2:]))
     
@@ -26,7 +29,7 @@ sp = bs(page.content, 'html.parser')
 pnum = int(sp.findAll('td', {'class':'id_column'})[0].text)
 
 readmetemp = ''
-with open('templates/README.md', 'r') as f:
+with open('management/templates/README.md', 'r') as f:
     readmetemp = f.read()
     
     
@@ -51,6 +54,14 @@ for i in range(r):
                 
     table = table + '\n'
 
-readmetemp = readmetemp.format(allp=pnum, solved=solved, done=f'{numsolved / pnum *100:.2f}', table=table)
-with open('../README.md', 'w') as f:
+readmetemp = readmetemp.format(allp=pnum, solved=numsolved, done=f'{numsolved / pnum *100:.2f}', table=table)
+with open('README.md', 'w') as f:
     f.write(readmetemp)
+
+
+with open('solutions.txt', 'w') as f:
+    for i in range(pnum):
+        if (i + 1) in solutions.keys():
+            f.write(f'{i+1:>3}. {solutions[i+1]} \n')
+        else:
+            f.write(f'{i+1:>3}.\n')
