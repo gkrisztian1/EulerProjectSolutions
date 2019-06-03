@@ -2,9 +2,12 @@ from bs4 import BeautifulSoup as bs
 import requests
 import os
 
-def format_num(num):
+def format_num(num, is_solved=False):
     #s1 = f'<span style="color:{c}">**{num}**</span>'
-    s2 = f"[{num}](problems/ID{num:03}/problem.md)"
+    if is_solved:
+        s2 = f"[{num}](problems/ID{num:03}/problem.md)"
+    else:
+        s2 = f"[{num}](https://projecteuler.net/problem={num})"
     
     return s2
 

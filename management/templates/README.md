@@ -5,4 +5,9 @@
 |-|-|-|
 |{allp}|{solved}|{done} %|
 
+### Solutions
+[```solution.txt```](solution.txt)
+
+### Problems
+
 {table}
