@@ -6,7 +6,7 @@
 |{allp}|{solved}|{done} %|
 
 ### Solutions
-[```solution.txt```](solution.txt)
+[```solution.txt```](solutions.txt)
 
 ### Problems
 

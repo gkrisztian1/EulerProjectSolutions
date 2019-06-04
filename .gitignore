@@ -6,3 +6,4 @@ build.*
 *.bat
 nul
 __pycache__/
+Makefile*
