@@ -7,3 +7,7 @@ build.*
 nul
 __pycache__/
 Makefile*
+.vscode/
+.idea/
+cmake-build-debug/
+CMakeLists.txt
