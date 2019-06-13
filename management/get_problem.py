@@ -14,7 +14,8 @@ def make_dir(loc):
     
     
 def get_problem(pnum):
-    pdir = "problems/ID{:03}".format(pnum)
+    dirname = "ID{:03}".format(pnum)
+    pdir = f"problems/{dirname}"
     
     if os.path.exists(pdir):
         print(f'Problem {pnum:<3} is already synced.')
@@ -47,6 +48,14 @@ def get_problem(pnum):
     
     with open(f'{pdir}/problem.md', 'w', encoding="utf-8") as f:
         f.write(pmd)
+
+    pcm = ''
+    with open('management/templates/CMakeLists.txt') as f:
+        pcm = f.read()
+
+    pcm = pcm.format(id=dirname)
+    with open(f'{pdir}/CMakeLists.txt', 'w') as f:
+        f.write(pcm)
     
     print('Done')
     return True
