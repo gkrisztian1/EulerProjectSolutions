@@ -1,0 +1,1 @@
+python management/update_readme.py
