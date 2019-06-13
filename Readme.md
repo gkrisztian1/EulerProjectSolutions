@@ -3,7 +3,7 @@
 ### Statistics
 |all|solved|progress|
 |-|-|-|
-|674|12|1.78 %|
+|674|13|1.93 %|
 
 ### Solutions
 [```solution.txt```](solutions.txt)
@@ -12,7 +12,7 @@
 
 |**[1](problems/ID001/problem.md)** :white_check_mark:|**[2](problems/ID002/problem.md)** :white_check_mark:|**[3](problems/ID003/problem.md)** :white_check_mark:|**[4](problems/ID004/problem.md)** :white_check_mark:|**[5](problems/ID005/problem.md)** :white_check_mark:|**[6](problems/ID006/problem.md)** :white_check_mark:|**[7](problems/ID007/problem.md)** :white_check_mark:|**[8](problems/ID008/problem.md)** :white_check_mark:|**[9](problems/ID009/problem.md)** :white_check_mark:|**[10](problems/ID010/problem.md)** :white_check_mark:
 |-|-|-|-|-|-|-|-|-|-
-|**[11](problems/ID011/problem.md)** :white_check_mark:|**[12](problems/ID012/problem.md)** :white_check_mark:|**[13](https://projecteuler.net/problem=13)** :x:|**[14](https://projecteuler.net/problem=14)** :x:|**[15](https://projecteuler.net/problem=15)** :x:|**[16](https://projecteuler.net/problem=16)** :x:|**[17](https://projecteuler.net/problem=17)** :x:|**[18](https://projecteuler.net/problem=18)** :x:|**[19](https://projecteuler.net/problem=19)** :x:|**[20](https://projecteuler.net/problem=20)** :x:
+|**[11](problems/ID011/problem.md)** :white_check_mark:|**[12](problems/ID012/problem.md)** :white_check_mark:|**[13](problems/ID013/problem.md)** :white_check_mark:|**[14](problems/ID014/problem.md)** :pencil:|**[15](problems/ID015/problem.md)** :pencil:|**[16](https://projecteuler.net/problem=16)** :x:|**[17](https://projecteuler.net/problem=17)** :x:|**[18](https://projecteuler.net/problem=18)** :x:|**[19](https://projecteuler.net/problem=19)** :x:|**[20](https://projecteuler.net/problem=20)** :x:
 |**[21](https://projecteuler.net/problem=21)** :x:|**[22](https://projecteuler.net/problem=22)** :x:|**[23](https://projecteuler.net/problem=23)** :x:|**[24](https://projecteuler.net/problem=24)** :x:|**[25](https://projecteuler.net/problem=25)** :x:|**[26](https://projecteuler.net/problem=26)** :x:|**[27](https://projecteuler.net/problem=27)** :x:|**[28](https://projecteuler.net/problem=28)** :x:|**[29](https://projecteuler.net/problem=29)** :x:|**[30](https://projecteuler.net/problem=30)** :x:
 |**[31](https://projecteuler.net/problem=31)** :x:|**[32](https://projecteuler.net/problem=32)** :x:|**[33](https://projecteuler.net/problem=33)** :x:|**[34](https://projecteuler.net/problem=34)** :x:|**[35](https://projecteuler.net/problem=35)** :x:|**[36](https://projecteuler.net/problem=36)** :x:|**[37](https://projecteuler.net/problem=37)** :x:|**[38](https://projecteuler.net/problem=38)** :x:|**[39](https://projecteuler.net/problem=39)** :x:|**[40](https://projecteuler.net/problem=40)** :x:
 |**[41](https://projecteuler.net/problem=41)** :x:|**[42](https://projecteuler.net/problem=42)** :x:|**[43](https://projecteuler.net/problem=43)** :x:|**[44](https://projecteuler.net/problem=44)** :x:|**[45](https://projecteuler.net/problem=45)** :x:|**[46](https://projecteuler.net/problem=46)** :x:|**[47](https://projecteuler.net/problem=47)** :x:|**[48](https://projecteuler.net/problem=48)** :x:|**[49](https://projecteuler.net/problem=49)** :x:|**[50](https://projecteuler.net/problem=50)** :x:
